@@ -33,7 +33,7 @@ along with computational topics such as:
 
 This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interleave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
 
-The underlying workhop content is extremely similar to previous workshops run by Genomics Aotearoa so if you've already attended the Genomic Data Carpentry and RNAseq workshops you will have already covered the majority of the content.
+The underlying workshop content is extremely similar to previous workshops run by Genomics Aotearoa so if you've already attended the Genomic Data Carpentry and RNAseq workshops you will have already covered the majority of the content.
 
 ## Curriculum
 
