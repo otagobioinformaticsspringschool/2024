@@ -3,7 +3,7 @@
 
 ## About
 
-Bioinformatics Spring School 2020 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](www.nesi.org.nz). 
+Bioinformatics Spring School 2020 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). 
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
 
@@ -27,7 +27,7 @@ This event is designed to give researchers (including students - 4th year and ab
 along with computational topics such as:
 
 - Introduction to unix commandline
-- Introduction to working in a high performance computing environment (NeSI)
+- Introduction to working in a high performance computing environment (provided by NeSI)
 - Introduction to version control for code
 
 This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interleave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
