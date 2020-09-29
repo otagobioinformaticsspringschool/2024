@@ -5,15 +5,14 @@
 
 Bioinformatics Spring School 2020 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](www.nesi.org.nz). 
 
-Influenced by [The Carpentries](www.carpentries.org), we will combine talks from researchers and hands on computational workshops covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
+We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
 
 
 
 ### When and where?
 
-23 November - 27 November 2020
-
-Department of Biochemistry, University of Otago, Dunedin, New Zealand
+- 23 November - 27 November 2020
+- Department of Biochemistry, University of Otago, Dunedin, New Zealand
 
 
 ### Is this for me?
