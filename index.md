@@ -5,7 +5,7 @@
 
 Bioinformatics Spring School 2020 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). 
 
-We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
+We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
 
 
 
@@ -20,13 +20,13 @@ We will combine talks from researchers and hands on computational workshops (inf
 This event is designed to give researchers (including students - 4th year and above) the opportunity to learn about and practice some bioinformatic skills. We'll be covering bioinformatic workflows such as:
 
 - DNA variant calling from next generation sequence data
-- RNA sequence differential expression analysis
 - Genotype by Sequencing analysis
+- RNA sequence differential expression analysis
 - Environmental DNA analysis
 
 along with computational topics such as:
 
-- Introduction to unix commandline
+- Introduction to Unix commandline
 - Introduction to working in a high performance computing environment (provided by NeSI)
 - Introduction to version control for code
 
@@ -36,5 +36,20 @@ The underlying workshop content is extremely similar to previous workshops run b
 
 ## Curriculum
 
+### DNA variant calling from next generation sequence data
+
+### Genotype by Sequencing analysis
+
+### RNA sequence differential expression analysis
+
+### Environmental DNA analysis
+
+### Introduction to Unix commandline
+
+### Introduction to working in a high performance computing environment
+
+### Introduction to version control for code
 
 ## Apply
+
+Applications will open early October
