@@ -37,7 +37,7 @@ The underlying workshop content is extremely similar to previous workshops run b
 ## Curriculum
 
 
-### Bioformatic topics
+### Bioinformatic topics
 
 
 #### DNA variant calling from next generation sequence data
