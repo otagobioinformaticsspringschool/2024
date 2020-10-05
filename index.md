@@ -50,8 +50,13 @@ The underlying workshop content is extremely similar to previous workshops run b
 
 
 #### Genotype-by-sequencing analysis (RAD-Sequencing)
+ 
+- Data quality assessment
+- Calling variant workflow using Stacks (with or without a reference genome)
+- Basic population genetic analyses (population structure, phylogenetic tree) 
 
 #### RNA-sequencing differential expression analysis
+
 - Quality assessment
 - Trimming and filtering
 - Mapping and count
@@ -59,6 +64,12 @@ The underlying workshop content is extremely similar to previous workshops run b
 - Overrepresentation analysis
 
 #### Environmental DNA analysis
+ 
+- Next-generation sequencing approaches for environmental samples (metabarcoding)
+- Demultiplexing and quality assessment of NGS amplicon data
+- Clustering and denoising of sequence data
+- Determine species composition of samples (taxonomic assignment)
+- community ecology statistics for eDNA results
 
 ### Computational Topics
 
@@ -81,7 +92,7 @@ We'll be making use of the New Zealand eScience Infrastructure (NeSI), which is 
 - Logging onto a remote computer
 - Transfer of data to/from a remote computer
 - What is a job scheduler and how to use it
-- How to request an project allocation on NeSI
+- How to request a project allocation on NeSI
 
 
 #### Introduction to version control using git
