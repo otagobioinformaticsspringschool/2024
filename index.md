@@ -112,6 +112,6 @@ This workshop will require participants to provide their own laptop (we will hav
 
 Expressions of interest are now open. **Please fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSc-VrWHva2qls4HTR3y1Qm6M1tWXC2vgpx7feo9x87CzHvgHA/viewform?usp=sf_link)**
 
-Applications close 27 October, successful applicants will be notified by the 30th October.
+Applications close 5pm 27 October NZT, successful applicants will be notified by the 30th October.
 
 Any queries please email carpentries@otago.ac.nz
