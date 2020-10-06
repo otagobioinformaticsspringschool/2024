@@ -11,7 +11,7 @@ We will combine talks from researchers and hands on computational workshops (inf
 
 ### When and where?
 
-- 23 November - 27 November 2020
+- 9:30 - 16:30, 23 November - 27 November 2020
 - Department of Biochemistry, University of Otago, Dunedin, New Zealand
 
 This is an in-person event.
