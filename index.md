@@ -32,6 +32,7 @@ This event is designed to give researchers (including students - 4th year and ab
 along with computational topics such as:
 
 - Introduction to the Unix commandline (Bash)
+- Introduction to R
 - Introduction to working in a high performance computing environment (provided by NeSI)
 - Introduction to version control using git
 
