@@ -116,7 +116,10 @@ Running programs on the command line gives us the opportunity to save the comman
 
 ## Apply
 
+**We ask that you commit to the entire week.**
+
 This workshop will require participants to provide their own laptop (we will have a limited number of machines to lend)
+
 
 Expressions of interest are now open. **Please fill in this [FORM](https://docs.google.com/forms/d/e/1FAIpQLSc-VrWHva2qls4HTR3y1Qm6M1tWXC2vgpx7feo9x87CzHvgHA/viewform?usp=sf_link)**
 
