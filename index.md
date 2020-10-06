@@ -7,7 +7,7 @@ Bioinformatics Spring School 2020 is a week long training event for researchers,
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
 
-
+This event is organised by Murray Cadzow, Ngoni Faya and Ludovic Dutoit.
 
 ### When and where?
 
