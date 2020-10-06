@@ -84,6 +84,14 @@ Many bioinformatic programs will only operate in a Unix command line environment
 - Running command line based programs
 - Creating scripts to automate workflows
 
+#### Introduction to R
+
+Analysis portions of the workshops will be performed using R. As such we will provide a brief introduction to R. This will include:
+
+- How to interact with R
+- Creating objects
+- How to use functions
+- How to install and use packages
 
 #### Introduction to working in a high performance computing environment
 
