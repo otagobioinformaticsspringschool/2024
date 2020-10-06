@@ -107,4 +107,8 @@ Running programs on the command line gives us the opportunity to save the comman
 
 ## Apply
 
-Applications will open early October
+This workshop will require participants to provide their own laptop (we will have a limited number of machines to lend)
+
+Expressions of interest are now open. **Please fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSc-VrWHva2qls4HTR3y1Qm6M1tWXC2vgpx7feo9x87CzHvgHA/viewform?usp=sf_link)**
+
+Applications close 27 October, successful applicants will be notified by the 30th October.
