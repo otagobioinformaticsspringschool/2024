@@ -128,6 +128,8 @@ This workshop will require participants to provide their own laptop (we will hav
 
 Expressions of interest are now open. **Please fill in this [FORM](https://docs.google.com/forms/d/e/1FAIpQLSc-VrWHva2qls4HTR3y1Qm6M1tWXC2vgpx7feo9x87CzHvgHA/viewform?usp=sf_link)**
 
+N.B. Due to COVID-19 travel restrictions please only apply if you are located in New Zealand or meet the entry criteria
+
 Applications close 5pm 27 October NZT, successful applicants will be notified by the 30th October.
 
 Any queries please email carpentries@otago.ac.nz
