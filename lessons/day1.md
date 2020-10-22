@@ -2,4 +2,4 @@
 
 {% include_relative day1/intro_bash.md %}
 
-{% inlcude_relative intro_r.md %}
+{% include_relative intro_r.md %}
