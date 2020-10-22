@@ -3,7 +3,7 @@
 
 ### Monday 23rd Nov
 
-[Materials](lessons/day1.html)
+[Materials](lessons/day1.md)
 
 ### Tuesday 24th Nov
 
