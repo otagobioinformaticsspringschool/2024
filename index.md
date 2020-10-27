@@ -137,3 +137,8 @@ N.B. Due to COVID-19 travel restrictions please only apply if you are located in
 Applications close 5pm 27 October NZT, successful applicants will be notified by the 30th October.
 
 Any queries please email carpentries@otago.ac.nz
+
+
+## Schedule
+
+{% include schedule.md %}
