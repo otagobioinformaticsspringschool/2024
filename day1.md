@@ -1,5 +1,7 @@
 
 
-{% include day1/intro_bash.md %}
+Intro to BASH
+
+Intro to R
 
 
