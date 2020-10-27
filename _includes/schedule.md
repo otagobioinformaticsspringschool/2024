@@ -3,7 +3,7 @@
 
 ### Monday 23rd Nov
 
-{% inlcude lessons/day1_schedule.md %}
+{% include lessons/day1_schedule.md %}
 
 ### Tuesday 24th Nov
 
