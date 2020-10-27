@@ -20,4 +20,12 @@ This is an in-person event.
 Cost?
 This event will only cost your time (there isn't a $ charge).
 
-{% include_relative schedule.md %}
+
+## Schedule
+
+{% include schedule.md %}
+
+
+## Curriculum
+
+{% include curriculum.md %}
