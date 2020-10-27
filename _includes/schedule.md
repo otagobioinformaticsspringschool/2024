@@ -10,6 +10,8 @@ Time | What
 13:00 | Workshops 
 16:30 | End of Day 
 
+[Day 1 in-depth](day1.html)
+
 ### Tuesday 24th Nov
 
 Time | What
