@@ -1,6 +1,3 @@
-## Curriculum
-
-
 ### Bioinformatic topics
 
 
