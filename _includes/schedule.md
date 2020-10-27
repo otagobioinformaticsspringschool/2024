@@ -3,7 +3,7 @@
 
 ### Monday 23rd Nov
 
-[Materials](lessons/day1.md)
+{% inlcude lessons/day1_schedule.md %}
 
 ### Tuesday 24th Nov
 
