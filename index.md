@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Bioinformatics Spring School 2020
 
 
