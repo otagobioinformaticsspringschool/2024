@@ -1,8 +1,8 @@
 ### Monday 23rd Nov
 
 Time | What
----|---
-9:30 | Welcome 
+---|:---:
+09:30 | Welcome 
 10:00 | Keynote 
 11:00 | Break|
 11:15 | Workshops 
@@ -13,8 +13,8 @@ Time | What
 ### Tuesday 24th Nov
 
 Time | What
----|---
-9:30 |Speaker
+---|:---:
+09:30 |Speaker
 10:00 | DNA variant calling
 10:45 | Break
 11:00 |DNA variant calling cont.
