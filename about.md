@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 # About
 
 Bioinformatics Spring School 2020 is a week long training event for researchers, supported by Genomics Aotearoa and the New Zealand eScience Infrastructure (NeSI).
