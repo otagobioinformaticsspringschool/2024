@@ -1,12 +1,6 @@
-## Schedule
-
-
 ### Monday 23rd Nov
 
-[material](day1.html)
-
 ### Tuesday 24th Nov
-
 
 ### Wedenesday 25th Nov
 
