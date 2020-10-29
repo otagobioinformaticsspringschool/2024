@@ -1,14 +1,5 @@
-### Monday 23rd Nov
+{% include schedule_day1.md %}
 
-Time | What
----|:---:
-09:30 | Welcome 
-10:00 | Keynote 
-11:00 | Break|
-11:15 | Workshops 
-12:15 | Lunch
-13:00 | Workshops 
-16:30 | End of Day 
 
 [Day 1 in-depth](day1.html)
 
