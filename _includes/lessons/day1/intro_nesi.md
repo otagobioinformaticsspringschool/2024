@@ -1,3 +1,3 @@
-## Introduction to NeSI
+# Introduction to NeSI
 
 More to come soon...
