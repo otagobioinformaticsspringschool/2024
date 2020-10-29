@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Bioinformatics Spring School 2020
+{% include menu.md %}
 
 
 ## About
