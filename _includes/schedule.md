@@ -5,8 +5,9 @@
 
 {% include schedule_day2.md %}
 
-### Wedenesday 25th Nov
+{% include schedule_day3.md %}
 
-### Thursday 26th Nov
+{% include schedule_day4.md %}
 
-### Friday 27th Nov
+{% include schedule_day5.md %}
+
