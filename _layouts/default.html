@@ -23,10 +23,10 @@
 
       <div id="banner">
         <span id="logo"></span>
-        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
 
 	<a href="{{ site.url | append: site.baseurl }}" class="button"><strong>Home</strong></a>
-        {% if site.show_downloads %}
+        <a href="{{ site.url | append: site.baseurl | append: day1_url }}" class="button downloads"><strong>Day 1</strong></a>
+	{% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>
             <ul>
