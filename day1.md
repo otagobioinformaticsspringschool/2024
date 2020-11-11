@@ -2,7 +2,7 @@
 
 {% include schedule_day1.md %}
 
-{% include lessons/day1/intro_nesi.md %}
+[Introduction to NeSI lesson material](lessons/day1/intro_nesi.html)
 
 {% include about/bash_lo.md %}
 
