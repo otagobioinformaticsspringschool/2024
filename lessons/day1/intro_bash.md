@@ -1,4 +1,12 @@
-# Introduction to Bash/Shell
+# Introduction to Unix commandline (BASH)
+Learning objectives:
+
+- Use the shell to navigate directories
+- Perform operations on files in directories outside your working directory
+- Interconvert between relative and absolute paths
+- View, search within, copy, move, and rename files. Create new directories.
+- Construct command pipelines with two or more stages.
+- Use for loops to run the same command for several input files.
 
 These introductory notes are drawn from caprentries **[Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/)** lessons
 
@@ -15,6 +23,8 @@ Many bioinformatics tools can only be used through a command line interface, or 
 - Many bioinformatic tasks require large amounts of computing power and can’t realistically be run on your own machine. These tasks are best performed using remote computers or cloud computing, which can only be accessed through a shell.
 
 In this lesson you will learn how to use the command line interface to move around in your file system.
+
+Open up a terminal
 
 ~~~
 $
