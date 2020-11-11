@@ -4,5 +4,4 @@ baseurl: "/bioinformatics-spring-school-2020/"
 url: "https://murraycadzow.github.io"
 theme: jekyll-theme-leap-day
 
-github:
-        day1_url: "day1.html"
+day1_url: "day1.html"
