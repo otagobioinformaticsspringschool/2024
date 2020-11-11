@@ -1,7 +1,7 @@
 ### Friday 27th Nov
 
 Time | What
----|---
+---|:---:
 9:30 |Speaker
 | Workshops
 12:15 | Lunch

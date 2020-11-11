@@ -1,7 +1,7 @@
 ### Wednesday 25th Nov
 
 Time | What 
----|---
+---|:---:
 9:30 | Speaker 
 10:30 | Break | 
 10:45 | Data101: From raw data to individual samples files 

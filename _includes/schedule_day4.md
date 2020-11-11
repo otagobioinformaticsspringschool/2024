@@ -1,7 +1,7 @@
 ### Thursday 26th Nov
 
 Time | What
----|---
+---|:---:
 9:30 |Speaker
 |
 12:15| Lunch
