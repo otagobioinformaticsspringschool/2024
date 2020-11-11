@@ -42,12 +42,12 @@ which is the top level directory within our cloud system:
 ~~~
 $ pwd
 ~~~
-{: .bash}
+
 
 ~~~
 /home/dcuser
 ~~~
-{: .output}
+
 
 Let's look at how our file system is organized. We can see what files and subdirectories are in this directory by running `ls`,
 which stands for "listing":
@@ -55,12 +55,12 @@ which stands for "listing":
 ~~~
 $ ls
 ~~~
-{: .bash}
+
 
 ~~~
 R  r_data  shell_data
 ~~~
-{: .output}
+
 
 `ls` prints the names of the files and directories in the current directory in
 alphabetical order,
@@ -77,19 +77,18 @@ use the following command to get there:
 ~~~
 $ cd shell_data
 ~~~
-{: .bash}
+
 
 Let's look at what is in this directory:
 
 ~~~
 $ ls
 ~~~
-{: .bash}
+
 
 ~~~
 sra_metadata  untrimmed_fastq
 ~~~
-{: .output}
 
 We can make the `ls` output more comprehensible by using the **flag** `-F`,
 which tells `ls` to add a trailing `/` to the names of directories:
@@ -97,15 +96,14 @@ which tells `ls` to add a trailing `/` to the names of directories:
 ~~~
 $ ls -F
 ~~~
-{: .bash}
+
 
 ~~~
 sra_metadata/  untrimmed_fastq/
 ~~~
-{: .output}
+
 
 Anything with a "/" after it is a directory. Things with a "*" after them are programs. If
 there are no decorations, it's a file.
 
-`ls` has lots of other options. To find out what they are, we can type:
 
