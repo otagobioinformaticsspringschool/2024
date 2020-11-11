@@ -16,12 +16,12 @@ Many bioinformatics tools can only be used through a command line interface, or 
 
 In this lesson you will learn how to use the command line interface to move around in your file system.
 
-{: .callout}
+
 
 ~~~
 $
 ~~~
-{: .bash}
+
 
 The dollar sign is a **prompt**, which shows us that the shell is waiting for input;
 your shell may use a different character as a prompt and may add information before
@@ -41,10 +41,6 @@ which is the top level directory within our cloud system:
 
 ~~~
 $ pwd
-~~~
-
-
-~~~
 /home/dcuser
 ~~~
 
@@ -54,10 +50,6 @@ which stands for "listing":
 
 ~~~
 $ ls
-~~~
-
-
-~~~
 R  r_data  shell_data
 ~~~
 
@@ -78,15 +70,10 @@ use the following command to get there:
 $ cd shell_data
 ~~~
 
-
 Let's look at what is in this directory:
 
 ~~~
 $ ls
-~~~
-
-
-~~~
 sra_metadata  untrimmed_fastq
 ~~~
 
@@ -95,13 +82,8 @@ which tells `ls` to add a trailing `/` to the names of directories:
 
 ~~~
 $ ls -F
-~~~
-
-
-~~~
 sra_metadata/  untrimmed_fastq/
 ~~~
-
 
 Anything with a "/" after it is a directory. Things with a "*" after them are programs. If
 there are no decorations, it's a file.
