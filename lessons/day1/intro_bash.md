@@ -99,6 +99,61 @@ We have a special command to tell the computer to move us back or up one directo
 $ cd ..
 ~~~
 
+### Full vs. Relative Paths
 
+The `cd` command takes an argument which is a directory
+name. Directories can be specified using either a *relative* path or a
+full *absolute* path. The directories on the computer are arranged into a
+hierarchy. The full path tells you where a directory is in that
+hierarchy. Navigate to the home directory, then enter the `pwd`
+command.
 
+~~~
+$ cd  
+$ pwd  
+~~~
+
+You will see: 
+
+~~~
+/home/dcuser
+~~~
+
+This is the full name of your home directory. This tells you that you
+are in a directory called `dcuser`, which sits inside a directory called
+`home` which sits inside the very top directory in the hierarchy. The
+very top of the hierarchy is a directory called `/` which is usually
+referred to as the *root directory*. So, to summarize: `dcuser` is a
+directory in `home` which is a directory in `/`. More on `root` and
+`home` in the next section.
+
+Now enter the following command:
+
+~~~
+$ cd /home/dcuser/shell_data/.hidden
+~~~
+
+This jumps forward multiple levels to the `.hidden` directory. 
+Now go back to the home directory. 
+
+~~~
+$ cd
+~~~
+
+You can also navigate to the `.hidden` directory using:
+
+~~~
+$ cd shell_data/.hidden
+~~~
+
+These two commands have the same effect, they both take us to the `.hidden` directory.
+The first uses the absolute path, giving the full address from the home directory. The
+second uses a relative path, giving only the address from the working directory. A full
+path always starts with a `/`. A relative path does not.
+
+A relative path is like getting directions from someone on the street. They tell you to
+"go right at the stop sign, and then turn left on Main Street". That works great if
+you're standing there together, but not so well if you're trying to tell someone how to
+get there from another country. A full path is like GPS coordinates. It tells you exactly
+where something is no matter where you are right now.
 
