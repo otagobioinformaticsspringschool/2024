@@ -16,8 +16,10 @@ Many bioinformatics tools can only be used through a command line interface, or 
 
 In this lesson you will learn how to use the command line interface to move around in your file system.
 
+{: .callout}
+
 ~~~
-$ clear
+$
 ~~~
 {: .bash}
 
