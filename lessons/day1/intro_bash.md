@@ -8,7 +8,7 @@ Learning objectives:
 - Construct command pipelines with two or more stages.
 - Use for loops to run the same command for several input files.
 
-These introductory notes are drawn from caprentries **[Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/)** lessons
+These introductory notes are drawn from [The Carpentries](https://carpentries.org) **[Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/)** lessons
 
 ---
 ### Introducing the Shell
