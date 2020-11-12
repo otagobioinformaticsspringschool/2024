@@ -232,7 +232,51 @@ header {
  .day1 {
     position:fixed;
     left:50%;
+    margin-left:-275px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
+
+.day2 {
+    position:fixed;
+    left:50%;
     margin-left:-225px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
+
+.day3 {
+    position:fixed;
+    left:50%;
+    margin-left:-175px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
+
+.day4 {
+    position:fixed;
+    left:50%;
+    margin-left:-125px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
+
+.day5 {
+    position:fixed;
+    left:50%;
+    margin-left:-75px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
