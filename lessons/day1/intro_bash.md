@@ -43,12 +43,12 @@ i.e.,
 the directory that the computer assumes we want to run commands in,
 unless we explicitly specify something else.
 Here,
-the computer's response is `/home/dcuser`,
+the computer's response is `/home/yourname`,
 which is the top level directory within our cloud system:
 
 ~~~
 $ pwd
-/home/dcuser
+/home/yourname
 ~~~
 
 
@@ -116,7 +116,7 @@ $ pwd
 You will see: 
 
 ~~~
-/home/dcuser
+/home/yourname
 ~~~
 
 This is the full name of your home directory. This tells you that you
@@ -130,7 +130,7 @@ directory in `home` which is a directory in `/`. More on `root` and
 Now enter the following command:
 
 ~~~
-$ cd /home/dcuser/shell_data/.hidden
+$ cd /home/yourname/shell_data/.hidden
 ~~~
 
 This jumps forward multiple levels to the `.hidden` directory. 
