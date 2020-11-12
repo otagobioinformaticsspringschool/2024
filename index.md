@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% include menu.md %}
 
 
 ## About
