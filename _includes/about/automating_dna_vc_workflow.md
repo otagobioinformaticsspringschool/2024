@@ -1,3 +1,9 @@
+## Automating a Variant Calling Workflow
+
+- Write a shell script with multiple variables.
+- Incorporate a `for` loop into a shell script.
+
+
 ### Introduction to Version Control (Git)
 
 Learning objectives
