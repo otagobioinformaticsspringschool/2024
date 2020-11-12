@@ -1,3 +1,6 @@
+---
+title: Bioinformatics Spring School 2020
+---
 
 ## About
 
