@@ -1,5 +1,7 @@
 ## Automating a Variant Calling Workflow
 
+Learning objectives
+
 - Write a shell script with multiple variables.
 - Incorporate a `for` loop into a shell script.
 
