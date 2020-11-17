@@ -1,3 +1,5 @@
+## Setting up Git
+
 Derived from https://swcarpentry.github.io/git-novice/02-setup/index.html
 
 
