@@ -23,3 +23,5 @@ Lessons:
 
 [Setting up Git](lessons/day2/intro_git.html)
 
+
+[Automating a Variant Calling Workflow](lessons/day2/automating_vc.html)
