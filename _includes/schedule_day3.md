@@ -9,6 +9,6 @@ Time | What
 12:15 | Lunch| 
 13:00 | Calling SNPs de-novo, discussion
 13:30 | Calling SNPs with a reference genome
-1430 |Break 
+14:30 |Break
 15:00| Evolutionary Genetics basic toolbox (Population structure, Phylogenetic tree)
 16:30 | End of Day

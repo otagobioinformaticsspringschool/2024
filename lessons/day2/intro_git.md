@@ -1,3 +1,5 @@
+## Setting up Git
+
 Derived from https://swcarpentry.github.io/git-novice/02-setup/index.html
 
 
@@ -105,3 +107,8 @@ same commands to choose another editor or update your email address.
 {: .callout}
 
 [git-privacy]: https://help.github.com/articles/keeping-your-email-address-private/
+
+
+## Initialising a Git repository
+
+### Ignoring things
