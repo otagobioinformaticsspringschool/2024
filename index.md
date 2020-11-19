@@ -13,7 +13,8 @@ This event is organised by Murray Cadzow, Ngoni Faya and Ludovic Dutoit.
 ### When and where?
 
 - 9:30 - 16:30, 23 November - 27 November 2020
-- Department of Biochemistry, University of Otago, Dunedin, New Zealand
+- Department of Biochemistry, University of Otago
+	- 710 Cumberland Street, Dunedin, New Zealand
 
 This is an in-person event.
 
