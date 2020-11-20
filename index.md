@@ -22,6 +22,8 @@ This is an in-person event.
 
 This event will only cost your time (there isn't a $ charge).
 
+### Registration
+
 **REGISTRATION IS CLOSED**
 
 ### Is this for me?
