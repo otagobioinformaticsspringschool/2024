@@ -22,6 +22,8 @@ This is an in-person event.
 
 This event will only cost your time (there isn't a $ charge).
 
+**REGISTRATION IS CLOSED**
+
 ### Is this for me?
 
 This event is designed to give researchers (including students - 4th year and above) the opportunity to learn about and practice some bioinformatic skills. We'll be covering bioinformatic workflows such as:
