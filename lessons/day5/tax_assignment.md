@@ -121,3 +121,4 @@ Even with the pre-formatted databases mentioned above, some additional steps are
 
 <br>
 
+We will now continue on to [**trialing the different methods**](tax_assignment_part2.md)
