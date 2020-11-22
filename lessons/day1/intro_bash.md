@@ -27,7 +27,7 @@ In this lesson you will learn how to use the command line interface to move arou
 Open up a terminal
 
 ~~~
-$
+[matt.bixley@wbg004 nesi02659]$
 ~~~
 
 The dollar sign is a **prompt**, which shows us that the shell is waiting for input;
@@ -48,7 +48,7 @@ which is the top level directory within our cloud system:
 
 ~~~
 $ pwd
-/home/yourname
+/scale_wlg_persistent/filesets/project/nesi02659
 ~~~
 
 
@@ -57,7 +57,13 @@ which stands for "listing":
 
 ~~~
 $ ls
-R  r_data  shell_data
+
+14417834         fastqcmultiqc_html  MGSS_2020_MikeH_test  safe             Untitled2.ipynb  Untitled4.ipynb  Untitled.ipynb
+checkv.err       ga4gh               MGSS_resources_2020   SEPT28           untitled2.md     untitled4.md     untitled.md
+checkv.out       ga4gh-example-1     MGSS_U                source_data      untitled2.txt    untitled4.txt    untitled.txt
+checkv.sl        gateach             newcounts.txt         Untitled1.ipynb  Untitled3.ipynb  Untitled5.ipynb  viz_thang.sh
+dc_workshop      Kegg_dat.ipynb      obss_2020             untitled1.md     untitled3.md     untitled5.txt    workflow_workshop
+Ex16_afar.ipynb  MGSS_2020           RNA-seq.ipynb         untitled1.txt    untitled3.txt    untitled6.txt    yeast_counts_all_chr.txt
 ~~~
 
 `ls` prints the names of the files and directories in the current directory in
