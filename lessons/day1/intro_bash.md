@@ -60,6 +60,11 @@ $ ls
 R  r_data  shell_data
 ~~~
 
+To get our shell data into our home directory
+
+~~~
+cp -r  /nesi/nobackup/nesi02659/shell_data/ ./
+~~~
 
 `ls` prints the names of the files and directories in the current directory in
 alphabetical order,
