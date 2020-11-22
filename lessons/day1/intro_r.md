@@ -1,13 +1,17 @@
 # Introduction to R for Genomics
 
-### Why use R for genomics?
+## Why use R for genomics?
 - R, with its statistical analysis heritage, plotting features, and rich user-contributed packages is one of the best languages for the task of analyzing genomic data.
 - High-dimensional genomics datasets are usually suitable to be analyzed with core R packages and functions.
 - Bioconductor and CRAN have an array of specialized tools for doing genomics-specific analysis.
 
 ---
+
 ### Installing Packages
 - CRAN packages can be installed using install.packages()
+
+
+n.b. Due to current setting in our Jupyter notebook on NeSI this won't work and is provided as an example for how you would do it if you had R installed on your own computer.
 
 ```{r}
 # install package called `tidyverse`
@@ -37,7 +41,7 @@ update.packages()
 > BiocManager::install()
 ```
 
-### Getting help on functions and packages
+## Getting help on functions and packages
 You can get help on functions by using `help()` and ?package_name.
 
 ```
