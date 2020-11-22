@@ -247,20 +247,6 @@ $ tail -n 1 SRR098026.fastq
 A!@B!BBB@ABAB#########!!!!!!!######
 ~~~
 
-
-## Variables
-
-A variable is a method to store information eg a list, and use it again (or several times) without having to write the list out.
-
-~~~
-$ foo=abc
-$ echo foo is $foo
-foo is abc
-
-$ echo foo is ${foo}EFG
-foo is abcEFG
-~~~
-
 ## Creating, moving, copying, and removing
 
 Now we can move around in the file structure, look at files, and search files. But what if we want to copy files or move
@@ -317,6 +303,86 @@ $ ls
 SRR098026-backup.fastq
 ~~~
 
+## Redirection/Pipes
+
+We discussed in a previous section how to look at a file using `less` and `head`. We can also
+search within files without even opening them, using `grep`. We can then send what we find to somewhere else.
+
+~~~
+$ cd ~/shell_data/untrimmed_fastq
+~~~
+
+Suppose we want to see how many reads in our file have really bad segments containing 10 consecutive unknown nucleotides (Ns).
+Let's search for the string NNNNNNNNNN in the SRR098026 file:
+~~~
+$ grep NNNNNNNNNN SRR098026.fastq
+~~~
+
+One of the sets of lines returned by this command is: 
+~~~
+@SRR098026.177 HWUSI-EAS1599_1:2:1:1:2025 length=35
+CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
++SRR098026.177 HWUSI-EAS1599_1:2:1:1:2025 length=35
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~
+
+We can use the `-B` argument for grep to return a specific number of lines before
+each match. The `-A` argument returns a specific number of lines after each matching line. Here we want the line *before* and the two lines *after* each 
+matching line, so we add `-B1 -A2` to our grep command:
+
+~~~
+$ grep -B1 -A2 NNNNNNNNNN SRR098026.fastq
+~~~
+
+The command for redirecting output to a file is `>`.
+
+Let's try out this command and copy all the records (including all four lines of each record) 
+in our FASTQ files that contain 
+'NNNNNNNNNN' to another file called `bad_reads.txt`.
+
+~~~
+$ grep -B1 -A2 NNNNNNNNNN SRR098026.fastq > bad_reads.txt
+~~~
+
+We can then see how many bad read we have
+~~~
+$ wc -l bad_reads.txt
+
+537 bad_reads.txt
+~~~
+
+We created the files to store the reads and then counted the lines in 
+the file to see how many reads matched our criteria. There's a way to do this, however, that
+doesn't require us to create these intermediate files - the pipe command (`|`).
+
+This is probably not a key on
+your keyboard you use very much, so let's all take a minute to find that key. For the standard QWERTY keyboard
+layout, the `|` character can be found using the key combination
+
+- <kbd>Shift</kbd>+<kbd>\</kbd>
+
+What `|` does is take the output that is scrolling by on the terminal and uses that output as input to another command. 
+When our output was scrolling by, we might have wished we could slow it down and
+look at it, like we can with `less`. Well it turns out that we can! We can redirect our output
+from our `grep` call through the `less` command.
+
+~~~
+$ grep -B1 -A2 NNNNNNNNNN SRR098026.fastq | wc -l 
+~~~
+
+
+## Variables
+
+A variable is a method to store information eg a list, and use it again (or several times) without having to write the list out.
+
+~~~
+$ foo=abc
+$ echo foo is $foo
+foo is abc
+
+$ echo foo is ${foo}EFG
+foo is abcEFG
+~~~
 
 ## Writing for loops
 
@@ -370,7 +436,8 @@ Note that we are using `>>` to append the text to our `seq_info.txt` file. If we
 every time the loop iterates, so it would only have text from the last variable used. Instead, `>>` adds to the end of the file.
 
 ### Extended for loops
-Basename is a function in UNIX that is helpful for removing a uniform part of a name from a list of files. In this case, we will use basename to remove the `.fastq` extension from the files that we’ve been working with. 
+
+`basename` is a function in UNIX that is helpful for removing a uniform part of a name from a list of files. In this case, we will use basename to remove the `.fastq` extension from the files that we’ve been working with. 
 
 ~~~
 $ basename SRR097977.fastq .fastq
