@@ -60,16 +60,16 @@ $ ls
 R  r_data  shell_data
 ~~~
 
+`ls` prints the names of the files and directories in the current directory in
+alphabetical order,
+arranged neatly into columns. 
+We'll be working within the `shell_data` subdirectory, and creating new subdirectories, throughout this workshop.  
+
 To get our shell data into our home directory
 
 ~~~
 cp -r  /nesi/nobackup/nesi02659/shell_data/ ./
 ~~~
-
-`ls` prints the names of the files and directories in the current directory in
-alphabetical order,
-arranged neatly into columns. 
-We'll be working within the `shell_data` subdirectory, and creating new subdirectories, throughout this workshop.  
 
 ---
 ## Navigating Files and Directories
