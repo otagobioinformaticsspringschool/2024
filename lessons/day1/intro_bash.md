@@ -134,7 +134,7 @@ $ cd /home/yourname/shell_data/.hidden
 ~~~
 
 This jumps forward multiple levels to the `.hidden` directory. 
-Now go back to the home directory. 
+Now go back to the home directory with `cd` or `cd ~`
 
 ~~~
 $ cd
@@ -157,6 +157,97 @@ you're standing there together, but not so well if you're trying to tell someone
 get there from another country. A full path is like GPS coordinates. It tells you exactly
 where something is no matter where you are right now.
 
+## Examining Files
+
+We now know how to switch directories, run programs, and look at the
+contents of directories, but how do we look at the contents of files?
+
+One way to examine a file is to print out all of the
+contents using the program `cat`. 
+
+Enter the following command from within the `untrimmed_fastq` directory: 
+
+~~~
+$ cat SRR098026.fastq
+~~~
+
+This will print out all of the contents of the `SRR098026.fastq` to the screen.
+
+Enter the following command:
+
+~~~
+$ less SRR097977.fastq
+~~~
+{: .bash}
+
+Some navigation commands in `less`:
+
+| key     | action |
+| ------- | ---------- |
+| <kbd>Space</kbd> | to go forward |
+|  <kbd>b</kbd>    | to go backward |
+|  <kbd>g</kbd>    | to go to the beginning |
+|  <kbd>G</kbd>    | to go to the end |
+|  <kbd>q</kbd>    | to quit |
+
+`less` also gives you a way of searching through files. Use the
+"/" key to begin a search. Enter the word you would like
+to search for and press `enter`. The screen will jump to the next location where
+that word is found. 
+
+There's another way that we can look at files, and in this case, just
+look at part of them. This can be particularly useful if we just want
+to see the beginning or end of the file, or see how it's formatted.
+
+The commands are `head` and `tail` and they let you look at
+the beginning and end of a file, respectively.
+
+~~~
+$ head SRR098026.fastq
+
+@SRR098026.1 HWUSI-EAS1599_1:2:1:0:968 length=35
+NNNNNNNNNNNNNNNNCNNNNNNNNNNNNNNNNNN
++SRR098026.1 HWUSI-EAS1599_1:2:1:0:968 length=35
+!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!
+@SRR098026.2 HWUSI-EAS1599_1:2:1:0:312 length=35
+NNNNNNNNNNNNNNNNANNNNNNNNNNNNNNNNNN
++SRR098026.2 HWUSI-EAS1599_1:2:1:0:312 length=35
+!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!
+@SRR098026.3 HWUSI-EAS1599_1:2:1:0:570 length=35
+NNNNNNNNNNNNNNNNANNNNNNNNNNNNNNNNNN
+~~~
+
+~~~
+$ tail SRR098026.fastq
+
++SRR098026.247 HWUSI-EAS1599_1:2:1:2:1311 length=35
+#!##!#################!!!!!!!######
+@SRR098026.248 HWUSI-EAS1599_1:2:1:2:118 length=35
+GNTGNGGTCATCATACGCGCCCNNNNNNNGGCATG
++SRR098026.248 HWUSI-EAS1599_1:2:1:2:118 length=35
+B!;?!A=5922:##########!!!!!!!######
+@SRR098026.249 HWUSI-EAS1599_1:2:1:2:1057 length=35
+CNCTNTATGCGTACGGCAGTGANNNNNNNGGAGAT
++SRR098026.249 HWUSI-EAS1599_1:2:1:2:1057 length=35
+A!@B!BBB@ABAB#########!!!!!!!######
+~~~
+
+The `-n` option to either of these commands can be used to print the
+first or last `n` lines of a file. 
+
+~~~
+$ head -n 1 SRR098026.fastq
+
+@SRR098026.1 HWUSI-EAS1599_1:2:1:0:968 length=35
+~~~
+
+~~~
+$ tail -n 1 SRR098026.fastq
+
+A!@B!BBB@ABAB#########!!!!!!!######
+~~~
+
+
 ## Variables
 
 A variable is a method to store information eg a list, and use it again (or several times) without having to write the list out.
@@ -169,6 +260,63 @@ foo is abc
 $ echo foo is ${foo}EFG
 foo is abcEFG
 ~~~
+
+## Creating, moving, copying, and removing
+
+Now we can move around in the file structure, look at files, and search files. But what if we want to copy files or move
+them around or get rid of them? Most of the time, you can do these sorts of file manipulations without the command line,
+but there will be some cases (like when you're working with a remote computer like we are for this lesson) where it will be
+impossible. You'll also find that you may be working with hundreds of files and want to do similar manipulations to all 
+of those files. In cases like this, it's much faster to do these operations at the command line.
+
+### Copying Files
+
+When working with computational data, it's important to keep a safe copy of that data that can't be accidentally overwritten or deleted. 
+For this lesson, our raw data is our FASTQ files.  We don't want to accidentally change the original files, so we'll make a copy of them
+and change the file permissions so that we can read from, but not write to, the files.
+
+First, let's make a copy of one of our FASTQ files using the `cp` command. 
+
+Navigate to the `shell_data/untrimmed_fastq` directory and enter:
+
+~~~
+$ cp SRR098026.fastq SRR098026-copy.fastq
+$ ls -F
+
+SRR097977.fastq  SRR098026-copy.fastq  SRR098026.fastq
+~~~
+
+### Creating Directories
+
+The `mkdir` command is used to make a directory. Enter `mkdir`
+followed by a space, then the directory name you want to create:
+
+~~~
+$ mkdir backup
+~~~
+
+### Moving / Renaming 
+
+We can now move our backup file to this directory. We can
+move files around using the command `mv`: 
+
+~~~
+$ mv SRR098026-copy.fastq backup
+$ ls backup
+
+SRR098026-copy.fastq
+~~~
+
+The `mv` command is also how you rename files. Let's rename this file to make it clear that this is a backup:
+
+~~~
+$ cd backup
+$ mv SRR098026-copy.fastq SRR098026-backup.fastq
+$ ls
+
+SRR098026-backup.fastq
+~~~
+
 
 ## Writing for loops
 
@@ -221,7 +369,7 @@ If you notice a mistake that is going to prevent your loop for executing correct
 Note that we are using `>>` to append the text to our `seq_info.txt` file. If we used `>`, the `seq_info.txt` file would be rewritten
 every time the loop iterates, so it would only have text from the last variable used. Instead, `>>` adds to the end of the file.
 
-## Using Basename in for loops
+### Extended for loops
 Basename is a function in UNIX that is helpful for removing a uniform part of a name from a list of files. In this case, we will use basename to remove the `.fastq` extension from the files that we’ve been working with. 
 
 ~~~
@@ -238,13 +386,9 @@ If we try the same thing but use `.fasta` as the file extension instead, nothing
 
 ~~~
 $ basename SRR097977.fastq .fasta
-~~~
-{: .bash}
 
-~~~
 SRR097977.fastq
 ~~~
-{: .output}
 
 Basename is really powerful when used in a for loop. It allows to access just the file prefix, which you can use to name things. Let's try this.
 
@@ -257,7 +401,6 @@ $ for filename in *.fastq
 > echo ${name}
 > done
 ~~~
-{: .bash}
 
 One way this is really useful is to move files. Let's rename all of our .txt files using `mv` so that they have the years on them, which will document when we created them. 
 
