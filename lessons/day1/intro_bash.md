@@ -11,7 +11,7 @@ Learning objectives:
 These introductory notes are drawn from [The Carpentries](https://carpentries.org) **[Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/)** lessons
 
 ---
-### Introducing the Shell
+## Introducing the Shell
 
 A shell is a computer program that presents a command line interface which allows you to control your computer using commands entered with a keyboard instead of controlling graphical user interfaces (GUIs) with a mouse/keyboard combination.
 
@@ -67,7 +67,7 @@ arranged neatly into columns.
 We'll be working within the `shell_data` subdirectory, and creating new subdirectories, throughout this workshop.  
 
 ---
-### Navigating Files and Directories
+## Navigating Files and Directories
 
 The command to change locations in our file system is `cd`, followed by a
 directory name to change our working directory.
@@ -98,8 +98,8 @@ We have a special command to tell the computer to move us back or up one directo
 ~~~
 $ cd ..
 ~~~
-
-### Full vs. Relative Paths
+---
+## Full vs. Relative Paths
 
 The `cd` command takes an argument which is a directory
 name. Directories can be specified using either a *relative* path or a
@@ -157,6 +157,7 @@ you're standing there together, but not so well if you're trying to tell someone
 get there from another country. A full path is like GPS coordinates. It tells you exactly
 where something is no matter where you are right now.
 
+---
 ## Examining Files
 
 We now know how to switch directories, run programs, and look at the
@@ -247,15 +248,8 @@ $ tail -n 1 SRR098026.fastq
 A!@B!BBB@ABAB#########!!!!!!!######
 ~~~
 
-## Creating, moving, copying, and removing
-
-Now we can move around in the file structure, look at files, and search files. But what if we want to copy files or move
-them around or get rid of them? Most of the time, you can do these sorts of file manipulations without the command line,
-but there will be some cases (like when you're working with a remote computer like we are for this lesson) where it will be
-impossible. You'll also find that you may be working with hundreds of files and want to do similar manipulations to all 
-of those files. In cases like this, it's much faster to do these operations at the command line.
-
-### Copying Files
+---
+## Copying Files
 
 When working with computational data, it's important to keep a safe copy of that data that can't be accidentally overwritten or deleted. 
 For this lesson, our raw data is our FASTQ files.  We don't want to accidentally change the original files, so we'll make a copy of them
@@ -272,7 +266,7 @@ $ ls -F
 SRR097977.fastq  SRR098026-copy.fastq  SRR098026.fastq
 ~~~
 
-### Creating Directories
+## Creating Directories
 
 The `mkdir` command is used to make a directory. Enter `mkdir`
 followed by a space, then the directory name you want to create:
@@ -281,7 +275,7 @@ followed by a space, then the directory name you want to create:
 $ mkdir backup
 ~~~
 
-### Moving / Renaming 
+## Moving 
 
 We can now move our backup file to this directory. We can
 move files around using the command `mv`: 
@@ -303,6 +297,7 @@ $ ls
 SRR098026-backup.fastq
 ~~~
 
+---
 ## Redirection/Pipes
 
 We discussed in a previous section how to look at a file using `less` and `head`. We can also
@@ -370,7 +365,7 @@ from our `grep` call through the `less` command.
 $ grep -B1 -A2 NNNNNNNNNN SRR098026.fastq | wc -l 
 ~~~
 
-
+---
 ## Variables
 
 A variable is a method to store information eg a list, and use it again (or several times) without having to write the list out.
@@ -379,11 +374,15 @@ A variable is a method to store information eg a list, and use it again (or seve
 $ foo=abc
 $ echo foo is $foo
 foo is abc
+~~~
 
+We can add to a variable with curly brackets `{}`
+~~~
 $ echo foo is ${foo}EFG
 foo is abcEFG
 ~~~
 
+---
 ## Writing for loops
 
 Loops are key to productivity improvements through automation as they allow us to execute commands repeatedly. 
