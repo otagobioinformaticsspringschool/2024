@@ -1,6 +1,7 @@
 
 {% include schedule_day2.md %}
 
+{% include about/dna_bg_lo.md %}
 
 Lesson:
 
