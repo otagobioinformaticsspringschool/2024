@@ -3,4 +3,4 @@
 
 Lessons:
 
-[Genotyping by Sequencing in Ecology and Evolution](https://github.com/ldutoit/2020-spring-school-GBS/blob/master/index.md)
+[Genotyping by Sequencing in Ecology and Evolution](https://ldutoit.github.io/2020-spring-school-GBS/)
