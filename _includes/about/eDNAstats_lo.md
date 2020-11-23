@@ -6,5 +6,4 @@ Learning objectives:
 - Alpha and Beta diversity measures
 - Alignment and phylogeny of representative sequences
 - Differential abundance of taxa across samples
-- Longitudinal analysis
-- Plotting results
+- Plotting results: PCA, heatmap, etc.
