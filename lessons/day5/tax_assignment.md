@@ -44,7 +44,7 @@ All files have to be imported into the Qiime2 format:
 We first need to import the files produced in this morning's lesson into the Qiime2 format so they can be processed. In the command line, we will first load the Qiime2 module:
 
 ```
-module load Qiime2/2020.8
+module load QIIME2/2020.8
 ```
 
 To see the options for any Qiime2 command, you can use help:
