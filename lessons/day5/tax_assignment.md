@@ -100,7 +100,7 @@ https://otagoedna.github.io/2019_11_28_edna_course/example_viz/fish_OTUs_tabulat
 
 Then go to the Qiime2View website, click on 'file from the web', and paste the link in the box that opens up.
 
-This visual shows the sequence for each zOTU. You can run a BLAST search on each zOTU by clicking on the sequence. However, the search can take a while, depending on how busy the NCBI server is. To illustrate the kind of results you get, I have prepared a table that summarises the results for each zOTU
+This visual shows the sequence for each zOTU. You can run a BLAST search on each zOTU by clicking on the sequence. However, the search can take a while, depending on how busy the NCBI server is. To illustrate the kind of results you get, I have prepared a table that summarises the results for each zOTU. [**Here is the link**](https://github.com/murraycadzow/bioinformatics-spring-school-2020/blob/master/lessons/day5/midori_table.md) to view the table.
 
 From the BLAST results, it is possible to make a determination of the nearest species for each OTU. However, for studies involving hundreds or even thousands of OTUs, this is impractical. Generally it is advised to follow one of the taxonomic classification methods available, as this is more reproducible and rigorous. As well, the BLAST algorithm is not necessarily the best way to search the database for the best match. 
 
