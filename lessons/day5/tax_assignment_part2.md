@@ -31,20 +31,15 @@ Another way to assign taxonomy utilises machine learning algorithms.
 <br><br>
 
 
-### Use Naive Bayes (machine learning) to classify in Qiime
+## Use Naive Bayes (machine learning) to classify in Qiime
 
-In order to use the Naive Bayes (NB) method to assign taxonomy, it is necessary to train the sequence database first. Because this can take a great deal of time, a pre-trained classifier has been made available for you. The details of how this classifier was 'trained' appear on the **database preparation page**](preparing_database.md). The [Qiime2 Data Resources page](https://docs.qiime2.org/2020.8/data-resources/) provides some pre-trained classifiers for common primer combinations, as well as links to the Greengenes and Silva databases for 16S and 18S gene studies. For additional primer combinations, or other gene references, there is a [tutorial for training feature classifiers](https://docs.qiime2.org/2020.2/tutorials/feature-classifier/).
+In order to use the Naive Bayes (NB) method to assign taxonomy, it is necessary to train the sequence database first. Because this can take a great deal of time, a pre-trained classifier has been made available for you. The details of how this classifier was 'trained' appear on the [**database preparation page**](preparing_database.md). The [Qiime2 Data Resources page](https://docs.qiime2.org/2020.8/data-resources/) provides some pre-trained classifiers for common primer combinations, as well as links to the Greengenes and Silva databases for 16S and 18S gene studies. For additional primer combinations, or other gene references, there is a [tutorial for training feature classifiers](https://docs.qiime2.org/2020.2/tutorials/feature-classifier/).
 
-Use the command below, changing the name of the rep-seqs artifact that you have created:
+Because this command can take a few minutes to run, we will run it as a slurm job. Copy the example script to your own directory. The example job script is here: `/nesi/project/uoo02328/eDNA2020/scripts/naive_bayes_classify_fish.sh`
 
-```
-qiime feature-classifier classify-sklearn \
-  --i-classifier references/gg-13-8-99-515-806-nb-classifier.qza \
-  --i-reads zotu.qza \
-  --o-classification fish_zotu_NB_taxonomy.qza
-```
+Open up your copy and we will go over the commands
 
-You can then create a visualisation of the classification:
+The output of this script will produce a file called *fish_zotu_NB_taxonomy.qza*. We will now create a visualisation of the classification of each OTU:
 
 ```
 qiime metadata tabulate \
@@ -88,7 +83,7 @@ https://otagoedna.github.io/2019_11_28_edna_course/example_viz/fish_OTUs_NB_taxo
 
 <br><br>
 
-### Exporting Qiime files
+## Exporting Qiime files
 
 For some downstream analyses, it is necessary to convert our qiime-formatted files into flat (plain text) files so they can be used in other programs. Most Qiime files can be converted with the simple `qiime tools export` command. We will convert the taxonomy of classification that we just made:
 
@@ -116,11 +111,20 @@ mv exports/taxonomy.tsv fish_zotu_NB_taxonomy.tsv
 
 ## Try Taxonomy Assignment with VSEARCH (global alignment method)
 
-..more to come
+We will now try a global alignment method to assign taxonomy. As with the machine learning classification, we will run this through a job script. copy this file into your directory: `
 
-- try vsearch with basic parameters
-- redo with more strigent parameters
-- final script that runs twice
+We have found that the default in Qiime2 for this approach can produce some unwanted results. Open the file in a text editor and we will go over how we have adjusted this. 
+
+The output of this script is: `fish_OTUs_vsearch_taxonomy.qza`
+
+As with the Naive Bayes (machine learning) method, you can create visuals to view the results. There is an example of the vsearch result on the following link, which you can open in Qiime2View.
+
+https://otagoedna.github.io/2019_11_28_edna_course/example_viz/fish_OTUs_vsearch_6_taxonomy_VIZ.qzv
+
+We will now compare the differences in the two taxonomic assignments. (Better to have two Qiime2View windows opened for this.)
+
+Here is a link to the vsearch bar plots file:
+
 
 
 <br><br>
