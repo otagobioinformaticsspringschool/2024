@@ -10,13 +10,15 @@ It is possible to run the entirety of your analysis within the Qiime2 system, bu
 
 <br>
 
+
 ## Tour of Qiime2 website
 
 Now we will look over the resources on the [**Qiime2 website**](https://docs.qiime2.org/2020.8/)
 
 ![alt text](day5_images/quickTour.png)
 
-<br><br><br>
+<br><br>
+
 
 ### Qiime2 basics
 
@@ -33,17 +35,18 @@ All files have to be imported into the Qiime2 format:
 
 <br>
 
-## Taxonomy Assignment in Qiime2
+### Taxonomy Assignment in Qiime2
 
 
 ![alt text](day5_images/qiime_taxonomy_workflow.png)
 
 
-### Getting started: importing files into Qiime2 format
+## Getting started: importing files into Qiime2 format
 
-We first need to import the files produced in this morning's lesson into the Qiime2 format so they can be processed. In the command line, we will first load the Qiime2 module:
+We first need to import the files produced in this morning's lesson into the Qiime2 format so they can be processed. In the command line, we will first go to the taxonomy folder and load the Qiime2 module:
 
 ```
+module purge
 module load QIIME2/2020.8
 ```
 
@@ -58,14 +61,14 @@ First, we will import the zOTU fasta file:
 ```
 qiime tools import \
   --type 'FeatureData[Sequence]' \
-  --input-path zotus.fasta  \
-  --output-path zotu.qza
+  --input-path ../out/zotus.fasta  \
+  --output-path zotus.qza
 ```
 
 Next, we will import the frequency table. Two steps are needed for this. First we import the table into a biom format. The biom program is included with the Qiime2 module.
 
 ```
-biom convert -i zotutab.txt -o fish_frequency.biom --to-hdf5
+biom convert -i ../out/zotutab.txt -o fish_frequency.biom --to-hdf5
 ```
 
 Next, import the biom file into Qiime:
@@ -78,13 +81,16 @@ qiime tools import \
   --output-path fish_frequency_table.qza
 ```
 
+<br>
+
+
 ### Visuals in Qiime2
 
 Now that we have some files imported, we can create a visual. All visualisations in Qiime2 can be opened in a web browser, and are designed to be interactive in order to explore your data. We will start by creating a visual of the OTUs we just imported.
 
 ```
 qiime feature-table tabulate-seqs \
-  --i-data zotus.fasta \
+  --i-data zotus.qza \
   --o-visualization zotus_tabulation.qzv
 ```
 
@@ -96,7 +102,10 @@ There is a command to view a Qiime2 visual, however, since we are on a server, y
 
 To view our new visual, copy the link below (do not click on it).
 
-https://otagoedna.github.io/2019_11_28_edna_course/example_viz/fish_OTUs_tabulation.qzv
+
+
+
+https://otagoedna.github.io/2019_11_28_edna_course/example_viz/zotus_tabulation.qzv
 
 Then go to the Qiime2View website, click on 'file from the web', and paste the link in the box that opens up.
 
@@ -116,9 +125,10 @@ It is advised that researchers use only 'curated' databases for assigning taxono
 
 For any other study (or to check for gaps in any of the above databases), the [**NCBI**](https://www.ncbi.nlm.nih.gov/) and [**EMBL**](https://www.embl.org/) sequence databases have the largest collection of sequences. However, both of these databases are subject to error and searches on them can be inexact and recover sequences that are not the correct gene, misidentified or unassigned taxa. Care must be taken when using either of these databases.
 
-Even with the pre-formatted databases mentioned above, some additional steps are advised to prepare a database for taxonomy assignment. For most genes (though not all), it is recommended to extract each sequence around the primers used to amplify the target region in order to improve accuracy.  The process to prepare the lrRNA Midori database used today is [**described here**](preparing_database.md). The steps used can take a long time, depending on the size of the database, so we will not cover this today. However, in addition to the commands used, we are including links to example job scripts, and other resources online. Please contact us for advise on any gene region. 
+Even with the pre-formatted databases mentioned above, some additional steps are advised to prepare a database for taxonomy assignment. For most genes (though not all), it is recommended to extract each sequence around the primers used to amplify the target region in order to improve accuracy.  The process to prepare the lrRNA Midori database used today is [**described here**](https://otagocarpentries.github.io/bioinformatics-spring-school-2020/lessons/day5/preparing_database.html). The steps used can take a long time, depending on the size of the database, so we will not cover this today. However, in addition to the commands used, we are including links to example job scripts, and other resources online. Please contact us for advise on any gene region. 
 
 
 <br>
 
-We will now continue on to [**trialing the different methods**](tax_assignment_part2.md)
+We will now continue on to [**trialing the different methods**](https://otagocarpentries.github.io/bioinformatics-spring-school-2020/lessons/day5/tax_assignment_part2.html)
+
