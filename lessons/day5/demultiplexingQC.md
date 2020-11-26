@@ -11,9 +11,9 @@ Dr. Gert-Jan Jeunen_
 As a start, let's navigate to our user `folder`. Next, we will copy the data over from the `resources folder` to our own `user folder`. 
 
 ```
-cd obsss_2020/users/gert-jan/
+cd obsss_2020/users/<username>/
 
-cp -r /nesi/project/nesi02659/obss_2020/resources/day5/eDNA /nesi/project/nesi02659/obss_2020/users/gert-jan
+cp -r /nesi/project/nesi02659/obss_2020/resources/day5/eDNA /nesi/project/nesi02659/obss_2020/users/<username>
 
 cd eDNA/
 
