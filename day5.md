@@ -3,7 +3,6 @@
 
 {% include about/eDNAexpdesign_lo.md %}
 
-[Experimental Design for eDNA Research](lessons/day5/experimental_design.md)
 
 {% include about/qcdenoise_lo.md %}
 
