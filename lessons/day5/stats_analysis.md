@@ -104,29 +104,50 @@ betar = beta.multi(dataf_bin, index.family = "jaccard")
 print(betar$beta.JAC)
 ```
 
+We should probably not do this like that - why? 
+```r
+dataf_bin[,1:6]
+dataf_bin[,7:11]
+rowSums(dataf_bin[,1:6])
+rowSums(dataf_bin[,7:11])
+
+dataf_bin_sample = matrix(c(rowSums(dataf_bin[,1:6]), rowSums(dataf_bin[,7:11])), ncol=2, dimnames=list(rownames(dataf_bin), c('R','M')))
+
+dataf_bin_sample[dataf_bin_sample>0] = 1
+
+# Now we can run beta.multi again: 
+betar_sample = beta.multi(dataf_bin_sample, index.family = "jaccard")
+print(betar_sample$beta.JAC)
+
+```
+
 We can compare the abundance of the taxa between the sample types: 
 ```r
 boxplot(dataf_rar['Aldrichetta',1:6], dataf_rar['Aldrichetta',7:11])
 
-boxplot(dataf_rar['Aldrichetta',1:6], dataf_rar['Aldrichetta',7:11], notch = TRUE,
-  ylab = 'DNA read count', xlab = 'Aldrichetta', names = c('M', 'R'))
+genus = 'Aldrichetta'
+
+boxplot(dataf_rar[genus,1:6], dataf_rar[genus,7:11], notch = TRUE,
+  ylab = 'DNA read count', xlab = genus, names = c('M', 'R'))
 
 ```
 
 We will now plot a PCA to visualise the relationship between the samples; for that we will firstly have to transpose the data so that the samples are in the rows:
 ```r
-dataf_rar = t(dataf_rar)
 
-dataf_rar_sc = scale(dataf_rar)
+dataf_rar_tr = t(dataf_rar)
+
+dataf_rar_sc = scale(dataf_rar_tr)
 
 pca <- prcomp(dataf_rar_sc, scale. = TRUE)
-autoplot
-autoplot(pca, label = TRUE)
-autoplot(pca, label = TRUE, shape = FALSE, label.size = 3)
 
-autoplot(pca)
-autoplot(pca, loadings = TRUE, loadings.colour = 'blue',
-         loadings.label = TRUE, loadings.label.size = 3)
+autoplot(pca, label = TRUE)
+
+autoplot(pca, label = TRUE, shape = FALSE, label.size = 6)
+
+autoplot(pca, label = TRUE, shape = FALSE, label.size = 6, colour = c(rep('brown',6), rep('green',5)))
+
+autoplot(pca, loadings = TRUE, loadings.colour = 'blue', loadings.label = TRUE, loadings.label.size = 3)
 ```
 
 A heatmap directly clusters the samples and shows their relationship: 
