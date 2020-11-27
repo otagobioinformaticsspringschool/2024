@@ -54,3 +54,8 @@ The underlying workshop content is extremely similar to previous workshops run b
 ## Schedule
 
 {% include schedule.md %}
+
+
+## Survey
+
+**[POST WORKSHOP SURVEY](https://otago.au1.qualtrics.com/jfe/form/SV_2sNe7CnUdeyPk6F)**
