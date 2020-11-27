@@ -134,4 +134,3 @@ A heatmap directly clusters the samples and shows their relationship:
 dist = dist(dataf_rar_sc)
 autoplot(dist)
 ```
-
