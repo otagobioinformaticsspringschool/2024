@@ -1,6 +1,5 @@
 ### Bioinformatic topics
 
-
 #### DNA variant calling from next generation sequence data
 
 - Project organisation
@@ -9,9 +8,8 @@
 - Variant calling workflow
 - Automating a variant calling workflow
 
-
 #### Genotype-by-sequencing analysis (RAD-Sequencing)
- 
+
 - Data quality assessment
 - Calling variant workflow using Stacks (with or without a reference genome)
 - Basic population genetic analyses (population structure, phylogenetic tree) 
@@ -25,7 +23,7 @@
 - Overrepresentation analysis
 
 #### Environmental DNA analysis
- 
+
 - Next-generation sequencing approaches for environmental samples (metabarcoding)
 - Demultiplexing and quality assessment of NGS amplicon data
 - Clustering and denoising of sequence data
@@ -62,13 +60,3 @@ We'll be making use of the New Zealand eScience Infrastructure (NeSI), which is 
 - Transfer of data to/from a remote computer
 - What is a job scheduler and how to use it
 - How to request a project allocation on NeSI
-
-
-#### Introduction to version control using git
-
-Running programs on the command line gives us the opportunity to save the commands used in scripts that we can reuse later on. It's important that as we develop these scripts that we have a machanism to track the changes made. Git is a program that enables us to track the changes we make and see the differences between previous versions. The introduction to version control will cover:
-
-- Setting up Git
-- Using git to track changes on scripts
-- How to view changes between versions of scripts
-- Use git to look at previous versions of scripts
