@@ -46,7 +46,6 @@ along with computational topics such as:
 - Introduction to the Unix commandline (Bash)
 - Introduction to R
 - Introduction to working in a high performance computing environment (provided by NeSI)
-- Introduction to version control using git
 
 This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interleave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
 
