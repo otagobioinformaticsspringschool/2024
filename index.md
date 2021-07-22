@@ -1,20 +1,26 @@
 ---
-title: Bioinformatics Spring School 2020
+title: Bioinformatics Spring School 2021
 ---
 
 ## About
 
-Bioinformatics Spring School 2020 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). 
+Bioinformatics Spring School 2021 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). 
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
 
-This event is organised by Murray Cadzow, Ngoni Faya and Ludovic Dutoit.
+This event is organised by:
+
+- Alana Alexander
+- Mik Black
+- Murray Cadzow
+- Hugh Cross
+- Ludovic Dutoit
+- Ngoni Faya
 
 ### When and where?
 
-- 9:30 - 16:30, 23 November - 27 November 2020
-- Department of Biochemistry, University of Otago
-	- 710 Cumberland Street, Dunedin, New Zealand
+- 9:30 - 16:30, 22 November - 26 November 2021
+- University of Otago, Dunedin, New Zealand
 
 This is an in-person event.
 
@@ -24,7 +30,7 @@ This event will only cost your time (there isn't a $ charge).
 
 ### Registration
 
-**REGISTRATION IS CLOSED**
+Registration will be opening soon
 
 ### Is this for me?
 
@@ -50,12 +56,6 @@ The underlying workshop content is extremely similar to previous workshops run b
 
 {% include curriculum.md %}
 
-
 ## Schedule
 
 {% include schedule.md %}
-
-
-## Survey
-
-**[POST WORKSHOP SURVEY](https://otago.au1.qualtrics.com/jfe/form/SV_2sNe7CnUdeyPk6F)**
