@@ -56,6 +56,3 @@ The underlying workshop content is extremely similar to previous workshops run b
 
 {% include curriculum.md %}
 
-## Schedule
-
-{% include schedule.md %}
