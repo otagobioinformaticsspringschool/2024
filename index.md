@@ -10,12 +10,12 @@ We will combine talks from researchers and hands on computational workshops (inf
 
 This event is organised by:
 
-- Alana Alexander
-- Mik Black
-- Murray Cadzow
-- Hugh Cross
-- Ludovic Dutoit
-- Ngoni Faya
+- Dr Alana Alexander (Anatomy)
+- Assoc Prof Mik Black (Biochemistry)
+- Dr Murray Cadzow (Research and Teaching IT Support)
+- Dr Hugh Cross (Anatomy)
+- Dr Ludovic Dutoit (Zoology)
+- Dr Ngoni Faya (Genomics Aotearoa)
 
 ### When and where?
 
@@ -49,7 +49,9 @@ The underlying workshop content is extremely similar to previous workshops run b
 
 ### Registration
 
-Registration will be opening soon
+Expressions of interest are now open. Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdjpaKf9xzHz29ZpvPT6n5j_GABaQtOvOxnUbtVo1UxaIEC-w/viewform?usp=sf_link).
+
+Expressions of interest close 5pm 1st September (NZ). We will inform all applicants by 15th September if they were successful or not.
 
 ## Curriculum
 
