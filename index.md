@@ -49,7 +49,7 @@ The underlying workshop content is extremely similar to previous workshops run b
 
 ### Registration
 
-Expressions of interest are now open. Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdjpaKf9xzHz29ZpvPT6n5j_GABaQtOvOxnUbtVo1UxaIEC-w/viewform?usp=sf_link).
+Expressions of interest are now open. Please register your interest in attending by filling out **[this form](https://docs.google.com/forms/d/e/1FAIpQLSdjpaKf9xzHz29ZpvPT6n5j_GABaQtOvOxnUbtVo1UxaIEC-w/viewform?usp=sf_link)**.
 
 Expressions of interest close 5pm 1st September (NZ). We will inform all applicants by 15th September if they were successful or not.
 
