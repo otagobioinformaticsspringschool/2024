@@ -4,7 +4,7 @@ title: Bioinformatics Spring School 2021
 
 ## About
 
-Bioinformatics Spring School 2021 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz).
+Hosted at the University of Otago, the Bioinformatics Spring School 2021 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz).
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
 
