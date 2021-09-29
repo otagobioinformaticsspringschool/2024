@@ -33,6 +33,7 @@ Tuesday | Genomic variant calling
 Wednesday | Genotype-by-sequencing
 Thursay | Environmental DNA
 Friday | RNA sequence analysis
+
 ### Cost?
 
 This event will only cost your time (there isn't a $ charge).
