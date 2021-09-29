@@ -24,6 +24,15 @@ This event is organised by:
 
 This is an in-person event.
 
+#### Daily Overview
+
+Day | Topic
+---|---
+Monday | Introduction NeSI / Bash / R
+Tuesday | Genomic variant calling
+Wednesday | Genotype-by-sequencing
+Thursay | Environmental DNA
+Friday | RNA sequence analysis
 ### Cost?
 
 This event will only cost your time (there isn't a $ charge).
@@ -49,11 +58,11 @@ The underlying workshop content is extremely similar to previous workshops run b
 
 ### Registration
 
-Expressions of interest are CLOSED. 
+Expressions of interest are CLOSED.
 
 <!--Please register your interest in attending by filling out **[this form](https://docs.google.com/forms/d/e/1FAIpQLSdjpaKf9xzHz29ZpvPT6n5j_GABaQtOvOxnUbtVo1UxaIEC-w/viewform?usp=sf_link)**. -->
 
-Expressions of interest close 5pm 1st September (NZ). We will inform all applicants by 15th September if they were successful or not.
+Expressions of interest closed 5pm 1st September (NZ). All applicants were emailed by 15th September if they were successful or not. If you didn't receive an email please get in touch.
 
 ## Curriculum
 
