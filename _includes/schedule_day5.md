@@ -1,14 +1,13 @@
-### Friday 27th Nov
+### Firday 26th Nov
 
 Time | What
 ---|:---:
-09:30 | Symposium 
-10:30 | Break
-10:45 | Experimental Design
-11:00 | QC and Denoising/Clustering
+09:30 |Speaker
+10:00 | RNAseq
+10:45 | Break
+11:00 | RNAseq cont.
 12:15 | Lunch
-13:00 | Taxonomy Assignment
-14:30 | Afternoon Tea
-14:45 | Statistical Analysis
-16:15 | Course Summary
-16:30 | End of Day 
+13:00 | RNAseq cont.
+14:30 | Break
+14:45 | RNAseq cont.
+16:30 | End of Day

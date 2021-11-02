@@ -1,9 +1,9 @@
-### Wednesday 25th Nov
+### Wednesday 24th Nov
 
 Time | What 
 ---|:---:
 9:30 | Speaker 
-10:30 | Data101: From raw data to individual samples files | 
+10:30 | Data101: From raw data to individual samples files 
 11:00 | Break
 11:15 | Calling SNPs de-novo 
 12:15 | Lunch| 
