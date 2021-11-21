@@ -12,4 +12,3 @@ Time | What
 14:45 | Break
 15:00 | Introduction to R
 16:30 | End of Day 
-TBA | Social activity
