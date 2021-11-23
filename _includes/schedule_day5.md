@@ -1,4 +1,4 @@
-### Firday 26th Nov
+### Friday 26th Nov
 
 Time | What
 ---|:---:
