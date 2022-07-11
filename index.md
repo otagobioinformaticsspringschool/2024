@@ -2,20 +2,22 @@
 title: Bioinformatics Spring School 2021
 ---
 
+{% include covid.md %}
+
 ## About
 
-Bioinformatics Spring School 2021 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). 
+Hosted at the University of Otago, the Bioinformatics Spring School 2021 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz).
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, genotyping by sequencing (GBS), RNAseq analysis, and environmental DNA (eDNA).
 
 This event is organised by:
 
-- Alana Alexander
-- Mik Black
-- Murray Cadzow
-- Hugh Cross
-- Ludovic Dutoit
-- Ngoni Faya
+- Dr Alana Alexander (Anatomy)
+- Assoc Prof Mik Black (Biochemistry)
+- Dr Murray Cadzow (Research and Teaching IT Support)
+- Dr Hugh Cross (Anatomy)
+- Dr Ludovic Dutoit (Zoology)
+- Dr Ngoni Faya (Genomics Aotearoa)
 
 ### When and where?
 
@@ -24,13 +26,18 @@ This event is organised by:
 
 This is an in-person event.
 
+
+Day | Topic
+---|---
+Monday | Introduction NeSI / Bash / R
+Tuesday | Genomic variant calling
+Wednesday | Genotype-by-sequencing
+Thursay | Environmental DNA
+Friday | RNA sequence analysis
+
 ### Cost?
 
 This event will only cost your time (there isn't a $ charge).
-
-### Registration
-
-Registration will be opening soon
 
 ### Is this for me?
 
@@ -51,7 +58,30 @@ This week long event is designed to be an immersive experience so **we ask that 
 
 The underlying workshop content is extremely similar to previous workshops run by Genomics Aotearoa so if you've already attended the Genomic Data Carpentry and RNAseq workshops you will have already covered the majority of the content.
 
+### Registration
+
+Expressions of interest are CLOSED. 
+
+<!--Please register your interest in attending by filling out **[this form](https://docs.google.com/forms/d/e/1FAIpQLSdjpaKf9xzHz29ZpvPT6n5j_GABaQtOvOxnUbtVo1UxaIEC-w/viewform?usp=sf_link)**. -->
+
+Expressions of interest closed 5pm 1st September (NZ). All applicants were emailed by 15th September if they were successful or not. If you didn't receive an email please get in touch.
+
 ## Curriculum
 
 {% include curriculum.md %}
+
+
+
+
+## Draft daily schedule
+
+{% include schedule_day1.md %}
+
+{% include schedule_day2.md %}
+
+{% include schedule_day3.md %}
+
+{% include schedule_day4.md %}
+
+{% include schedule_day5.md %}
 

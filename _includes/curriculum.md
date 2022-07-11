@@ -1,6 +1,5 @@
 ### Bioinformatic topics
 
-
 #### DNA variant calling from next generation sequence data
 
 - Project organisation
@@ -9,9 +8,8 @@
 - Variant calling workflow
 - Automating a variant calling workflow
 
-
 #### Genotype-by-sequencing analysis (RAD-Sequencing)
- 
+
 - Data quality assessment
 - Calling variant workflow using Stacks (with or without a reference genome)
 - Basic population genetic analyses (population structure, phylogenetic tree) 
@@ -25,7 +23,7 @@
 - Overrepresentation analysis
 
 #### Environmental DNA analysis
- 
+
 - Next-generation sequencing approaches for environmental samples (metabarcoding)
 - Demultiplexing and quality assessment of NGS amplicon data
 - Clustering and denoising of sequence data
