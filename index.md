@@ -71,6 +71,8 @@ Expressions of interest closed 5pm 1st September (NZ). All applicants were email
 {% include curriculum.md %}
 
 
+
+
 ## Draft daily schedule
 
 {% include schedule_day1.md %}
@@ -82,3 +84,4 @@ Expressions of interest closed 5pm 1st September (NZ). All applicants were email
 {% include schedule_day4.md %}
 
 {% include schedule_day5.md %}
+
