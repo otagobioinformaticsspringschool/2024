@@ -1,4 +1,4 @@
-### Tuesday 23rd Nov
+### Tuesday 22nd Nov
 
 Time | What
 ---|:---:
@@ -14,4 +14,4 @@ Time | What
 TBA | Social activity
 TBA | Dinner
 
-There will be an optional social activity followed by a dinner at Filidelphios for those who wish to join in. Dinner is pay your own way.
+There will be an optional social activity followed by a dinner for those who wish to join in. Dinner is pay your own way.

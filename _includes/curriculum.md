@@ -8,19 +8,9 @@
 - Variant calling workflow
 - Automating a variant calling workflow
 
-#### Genotype-by-sequencing analysis (RAD-Sequencing)
+#### Genome assembly
 
-- Data quality assessment
-- Calling variant workflow using Stacks (with or without a reference genome)
-- Basic population genetic analyses (population structure, phylogenetic tree) 
-
-#### RNA-sequencing differential expression analysis
-
-- Quality assessment
-- Trimming and filtering
-- Mapping and count
-- Differential expression
-- Overrepresentation analysis
+- Content TBC
 
 #### Environmental DNA analysis
 
@@ -29,6 +19,10 @@
 - Clustering and denoising of sequence data
 - Determine species composition of samples (taxonomic assignment)
 - community ecology statistics for eDNA results
+
+#### Nanopore
+
+- Content TBC
 
 ### Computational Topics
 
