@@ -1,1 +1,1 @@
-# bioinformatics-spring-school-2021
+# bioinformatics-spring-school-2022
