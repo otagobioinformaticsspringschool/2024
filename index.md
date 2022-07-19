@@ -10,6 +10,7 @@ Hosted at the University of Otago, the Bioinformatics Spring School 2022 is a we
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, Genome assembly, environmental DNA (eDNA), and Nanopore.
 
+
 This event is organised by:
 
 - Dr Alana Alexander (Anatomy)
@@ -36,7 +37,7 @@ Friday | Nanopore
 
 ### Cost?
 
-This event itself will only cost your time (there isn't a $ charge). Attendees will need to fund travel related expenses.
+This event itself will only cost your time (there isn't a $ charge) and lunches will be provided. Attendees will need to fund all other travel related expenses.
 
 ### Is this for me?
 
