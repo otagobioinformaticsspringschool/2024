@@ -6,7 +6,7 @@ title: Bioinformatics Spring School 2022
 
 ## About
 
-Hosted at the University of Otago, the Bioinformatics Spring School 2022 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz).
+Hosted at the University of Otago, the Bioinformatics Spring School 2022 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). This event is primarily targeted at researchers and students based in Aotearoa New Zealand. 
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, Genome assembly, environmental DNA (eDNA), and Nanopore.
 
@@ -36,7 +36,7 @@ Friday | Nanopore
 
 ### Cost?
 
-This event will only cost your time (there isn't a $ charge).
+This event itself will only cost your time (there isn't a $ charge). Attendees will need to fund travel related expenses.
 
 ### Is this for me?
 
