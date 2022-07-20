@@ -10,20 +10,17 @@ We will combine talks from researchers and hands on computational workshops (inf
 
 This event is organised by:
 
-- Alana Alexander
-- Mik Black
-- Murray Cadzow
-- Ludovic Dutoit
+{% include organisers.md %}
 
 
 When and where?
-9:30 - 16:30, 21 November - 25 November 2021
+9:30 - 16:30, 21 November - 25 November 2022
 University of Otago, Dunedin, New Zealand
 
 This is an in-person event.
 
 Cost?
-This event will only cost your time (there isn't a $ charge).
+This event itself will only cost your time (there isn't a $ charge) and lunches will be provided. Attendees will need to fund all other travel related expenses.
 
 ## Schedule
 

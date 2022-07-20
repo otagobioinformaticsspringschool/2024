@@ -6,22 +6,20 @@ title: Bioinformatics Spring School 2022
 
 ## About
 
-Hosted at the University of Otago, the Bioinformatics Spring School 2022 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). This event is primarily targeted at researchers and students based in Aotearoa New Zealand. 
+Hosted at the University of Otago, the Bioinformatics Spring School 2022 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). This event is primarily targeted at researchers and students based in Aotearoa New Zealand. International applications will be considered but as this is an in-person
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, Genome assembly, environmental DNA (eDNA), and Nanopore.
 
 
 This event is organised by:
 
-- Dr Alana Alexander (Anatomy)
-- Assoc Prof Mik Black (Biochemistry)
-- Dr Murray Cadzow (Research and Teaching IT Support)
-- Dr Ludovic Dutoit (Zoology)
+{% include organisers.md %}
+
 
 
 ### When and where?
 
-- 9:30 - 16:30, 21 November - 25 November 2021
+- 9:30 - 16:30, 21 November - 25 November 2022
 - University of Otago, Dunedin, New Zealand
 
 This is an in-person event.
@@ -56,12 +54,12 @@ along with computational topics such as:
 This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interleave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
 
 
-### Registration
+### Registration of Interest
 
-Expressions of interest will open before the end of July
 
-<!--Please register your interest in attending by filling out **[this form](https://docs.google.com/forms/d/e/1FAIpQLSdjpaKf9xzHz29ZpvPT6n5j_GABaQtOvOxnUbtVo1UxaIEC-w/viewform?usp=sf_link)**. -->
+Please register your interest in attending by filling out **[this form](https://docs.google.com/forms/d/e/1FAIpQLSdoslCWhRq2qEj1CMLANPP1KQxOGaPZQLKSi8THoQQyNNMErA/viewform?usp=sf_link)**
 
+Applications close midnight 31st August (NZ). Applicants will be notified of their outcome the week following the close of applications.
 
 
 ## Curriculum
