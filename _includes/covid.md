@@ -1,8 +1,10 @@
 ## COVID-19 Considerations
 
+This is an in-person event and will take the appropriate COVID-19 mitigations as determined at the time of the event. 
 
-Key points:
-- If you are sick don't come
-- Masks will be worn
-- Use hand-sanitiser regularly
-- Maintain social distancing (Uni guidelines say 2m for those outside your normal work building/bubble + mask)
+This may include (but not limited to):
+
+- Wearing of masks
+- Use of hand-sanitiser regularly
+- Maintaining social distancing
+- Staying home if sick
