@@ -15,7 +15,7 @@ This event is organised by:
 
 {% include organisers.md %}
 
-
+Please email murray.cadzow@otago.ac.nz for futher information/queries.
 
 ### When and where?
 
@@ -61,7 +61,7 @@ This week long event is designed to be an immersive experience so **we ask that 
 
 Applications close midnight 31st August (NZ). Applicants will be notified of their outcome the week following the close of applications.
 
-
+---
 ## Curriculum
 
 {% include curriculum.md %}
