@@ -22,7 +22,7 @@ This event is organised by:
 - 9:30 - 16:30, 21 November - 25 November 2022
 - University of Otago, Dunedin, New Zealand
 
-This is an in-person event.
+This is an in-person event. There will be COVID-19 mitigation measures in place determined by the requirements/advice at the time of the event.
 
 
 Day | Topic
