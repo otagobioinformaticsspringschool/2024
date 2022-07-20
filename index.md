@@ -57,7 +57,7 @@ This week long event is designed to be an immersive experience so **we ask that 
 ### Registration of Interest
 
 
-Please register your interest in attending by filling out **[this form](https://docs.google.com/forms/d/e/1FAIpQLSdoslCWhRq2qEj1CMLANPP1KQxOGaPZQLKSi8THoQQyNNMErA/viewform?usp=sf_link)**
+**Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdoslCWhRq2qEj1CMLANPP1KQxOGaPZQLKSi8THoQQyNNMErA/viewform?usp=sf_link)**
 
 Applications close midnight 31st August (NZ). Applicants will be notified of their outcome the week following the close of applications.
 
