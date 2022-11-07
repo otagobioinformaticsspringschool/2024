@@ -11,7 +11,3 @@ Time | What
 14:30 | Break
 14:45 | DNA variant calling cont
 16:30 | End of Day
-TBA | Social activity
-TBA | Dinner
-
-There will be an optional social activity followed by a dinner for those who wish to join in. Dinner is pay your own way.

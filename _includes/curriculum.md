@@ -10,7 +10,9 @@
 
 #### Genome assembly
 
-- Content TBC
+- Genome assembly with long and short reads
+- Draft assembly
+- Assembly QC
 
 #### Environmental DNA analysis
 

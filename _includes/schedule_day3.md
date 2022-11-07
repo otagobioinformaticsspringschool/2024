@@ -11,3 +11,7 @@ Time | What
 14:30 |Break
 15:00| Genome assembly 
 16:30 | End of Day
+TBA | Social activity
+TBA | Dinner
+
+There will be an optional social activity followed by a dinner for those who wish to join in. Dinner is pay your own way.
