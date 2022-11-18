@@ -30,7 +30,7 @@ Day | Topic
 Monday | Introduction NeSI / Bash / R
 Tuesday | Genomic variant calling
 Wednesday | Genome assembly
-Thursay | Environmental DNA
+Thursday | Environmental DNA
 Friday | Nanopore
 
 ### Cost?

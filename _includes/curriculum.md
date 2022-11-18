@@ -24,7 +24,10 @@
 
 #### Nanopore
 
-- Content TBC
+- Base calling 
+- Quality control
+- Variant calling
+  
 
 ### Computational Topics
 
