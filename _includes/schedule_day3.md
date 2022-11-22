@@ -8,7 +8,7 @@ Time | What
 11:15 | Genome assembly  
 12:15 | Lunch| 
 13:00 | Genome assembly 
-14:30 |Break
+14:45 |Break
 15:00| Genome assembly 
 16:30 | End of Day
 TBA | Social activity
