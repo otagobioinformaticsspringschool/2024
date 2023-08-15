@@ -1,4 +1,4 @@
-### Thursday 24th Nov
+### Thursday 30th Nov
 
 Time | What
 ---|:---:

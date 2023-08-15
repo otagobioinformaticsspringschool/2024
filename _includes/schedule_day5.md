@@ -1,4 +1,4 @@
-### Friday 25th Nov
+### Friday 1st Dec
 
 Time | What
 ---|:---:

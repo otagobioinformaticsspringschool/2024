@@ -1,4 +1,4 @@
-### Tuesday 22nd Nov
+### Tuesday 28th Nov
 
 Time | What
 ---|:---:
