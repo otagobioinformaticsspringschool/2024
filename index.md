@@ -2,14 +2,11 @@
 title: Bioinformatics Spring School 2023
 ---
 
-{% include covid.md %}
-
 ## About
 
-Hosted at the University of Otago, the Bioinformatics Spring School 2023 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). This event is primarily targeted at researchers and students based in Aotearoa New Zealand. International applications will be considered but will need to be able to attend in-person. 
+Hosted at the University of Otago, the Bioinformatics Spring School 2023 is a week long training event for researchers, supported by [Genomics Aotearoa](https://www.genomics-aotearoa.org.nz) and the [New Zealand eScience Infrastructure (NeSI)](https://www.nesi.org.nz). This event is primarily targeted at researchers and students based in Aotearoa New Zealand. International applications will be considered but will need to be able to attend in-person.
 
-We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling from short and long read sequencing.
-
+We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows using short and long read DNA sequencing technologies for variant calling and genome assembly.
 
 This event is organised by:
 
@@ -24,14 +21,13 @@ Please email murray.cadzow@otago.ac.nz for futher information/queries.
 
 This is an in-person event. There will be COVID-19 mitigation measures in place determined by the requirements/advice at the time of the event.
 
-
-Day | Topic
----|---
-Monday | Introduction NeSI / Bash / R
-Tuesday | Genomic variant calling
-Wednesday | Workflows and Reproducibility
-Thursday | Pangenome Graphs
-Friday | Nanopore
+| Day       | Topic                         |
+| --------- | ----------------------------- |
+| Monday    | Introduction NeSI / Bash / R  |
+| Tuesday   | Genomic variant calling       |
+| Wednesday | Workflows and Reproducibility |
+| Thursday  | Genome Assembly               |
+| Friday    | Nanopore                      |
 
 ### Cost?
 
@@ -42,7 +38,7 @@ This event itself will only cost your time (there isn't a $ charge) and lunches 
 This event is designed to give researchers (including students - 4th year and above) the opportunity to learn about and practice some bioinformatic skills. We'll be covering bioinformatic workflows such as:
 
 - DNA variant calling from next generation sequence data
-- Pangenome Graphs
+- Genome Assembly
 - Dealing with Nanopore data
 
 along with computational topics such as:
@@ -54,7 +50,6 @@ along with computational topics such as:
 
 This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interleave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
 
-
 ### Registration of Interest
 
 <!--
@@ -65,12 +60,10 @@ This week long event is designed to be an immersive experience so **we ask that 
 Applications will be open shortly
 
 ---
+
 ## Curriculum
 
 {% include curriculum.md %}
-
-
-
 
 ## Draft daily schedule
 
@@ -83,4 +76,3 @@ Applications will be open shortly
 {% include schedule_day4.md %}
 
 {% include schedule_day5.md %}
-

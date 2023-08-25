@@ -14,20 +14,11 @@
 - Draft assembly
 - Assembly QC
 
-#### Environmental DNA analysis
-
-- Next-generation sequencing approaches for environmental samples (metabarcoding)
-- Demultiplexing and quality assessment of NGS amplicon data
-- Clustering and denoising of sequence data
-- Determine species composition of samples (taxonomic assignment)
-- community ecology statistics for eDNA results
-
 #### Nanopore
 
-- Base calling 
+- Base calling
 - Quality control
 - Variant calling
-  
 
 ### Computational Topics
 
@@ -41,15 +32,6 @@ Many bioinformatic programs will only operate in a Unix command line environment
 - Running command line based programs
 - Creating scripts to automate workflows
 
-#### Introduction to R
-
-Analysis portions of the workshops will be performed using R. As such we will provide a brief introduction to R. This will include:
-
-- How to interact with R
-- Creating objects
-- How to use functions
-- How to install and use packages
-
 #### Introduction to working in a high performance computing environment
 
 We'll be making use of the New Zealand eScience Infrastructure (NeSI), which is the national provider of high performance computing for researchers, to run our analysis and as part of this we'll cover:
@@ -59,3 +41,7 @@ We'll be making use of the New Zealand eScience Infrastructure (NeSI), which is 
 - Transfer of data to/from a remote computer
 - What is a job scheduler and how to use it
 - How to request a project allocation on NeSI
+
+#### Introduction to Version Control
+
+#### Introduction to Reproducible Pipelines

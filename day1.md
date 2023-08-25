@@ -1,7 +1,3 @@
-
-
-
-
 {% include schedule_day1.md %}
 
 {% include about/nesi_lo.md %}
@@ -11,8 +7,3 @@
 {% include about/bash_lo.md %}
 
 [Introduction to Unix commandline lesson material](lessons/day1/intro_bash.html)
-
-{% include about/r_lo.md %}
-
-[Introduction to R lesson material](lessons/day1/intro_r.html)
-

@@ -1,14 +1,13 @@
 ### Thursday 30th Nov
 
-Time | What
----|:---:
-09:30 | Symposium 
-10:30 | Break
-10:45 | Experimental Design
-11:00 | QC and Denoising/Clustering
-12:15 | Lunch
-13:00 | Taxonomy Assignment
-14:30 | Afternoon Tea
-14:45 | Statistical Analysis
-16:15 | Course Summary
-16:30 | End of Day 
+| Time  |      What       |
+| ----- | :-------------: |
+| 9:30  |     Speaker     |
+| 10:30 | Genome assembly |
+| 11:00 |      Break      |
+| 11:15 | Genome assembly |
+| 12:15 |      Lunch      |
+| 13:00 | Genome assembly |
+| 14:45 |      Break      |
+| 15:00 | Genome assembly |
+| 16:30 |   End of Day    |
