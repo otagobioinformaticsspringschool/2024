@@ -44,4 +44,17 @@ We'll be making use of the New Zealand eScience Infrastructure (NeSI), which is 
 
 #### Introduction to Version Control
 
+Using automated version control systems such as git is an important aspect of computational research. We'll cover:
+
+- Understand the benefits of an automated version control system.
+- Understand the basics of how automated version control systems work.
+- Going through the modify-add-commit cycle for one or more files.
+- Comparing various versions of tracked files.
+
 #### Introduction to Reproducible Pipelines
+
+Often for bioinformatic analyses we have a multistep series of computations. A useful tool to manage these workflows along with keeping track of inputs and outputs, are workflow managers such as snakemake. For this we'll cover:
+
+- The benefits of using Snakemake or other workflow languages,
+- How to create a workflow to organize your computations, and
+- How an HPC scheduler (such as Slurm) fits into your workflow

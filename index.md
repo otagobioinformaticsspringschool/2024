@@ -23,7 +23,7 @@ This is an in-person event. There will be COVID-19 mitigation measures in place 
 
 | Day       | Topic                         |
 | --------- | ----------------------------- |
-| Monday    | Introduction NeSI / Bash / R  |
+| Monday    | Introduction NeSI / Bash      |
 | Tuesday   | Genomic variant calling       |
 | Wednesday | Workflows and Reproducibility |
 | Thursday  | Genome Assembly               |
@@ -44,7 +44,7 @@ This event is designed to give researchers (including students - 4th year and ab
 along with computational topics such as:
 
 - Introduction to the Unix commandline (Bash)
-- Using version control
+- Using version control (Git/Github)
 - Creating automated workflows
 - Introduction to working in a high performance computing environment (provided by NeSI)
 
