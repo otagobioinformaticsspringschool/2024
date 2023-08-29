@@ -19,7 +19,7 @@ Please email murray.cadzow@otago.ac.nz for futher information/queries.
 - 9:30 - 16:30, 26 November - 1 December 2023
 - University of Otago, Dunedin, New Zealand
 
-This is an in-person event. There will be COVID-19 mitigation measures in place determined by the requirements/advice at the time of the event.
+**This is an in-person event.**
 
 | Day       | Topic                         |
 | --------- | ----------------------------- |
