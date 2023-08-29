@@ -16,7 +16,7 @@ Please email murray.cadzow@otago.ac.nz for futher information/queries.
 
 ### When and where?
 
-- 9:30 - 16:30, 26 November - 1 December 2023
+- 9:30 - 16:30, 27 November - 1 December 2023
 - University of Otago, Dunedin, New Zealand
 
 **This is an in-person event.**
@@ -48,7 +48,7 @@ along with computational topics such as:
 - Creating automated workflows
 - Introduction to working in a high performance computing environment (provided by NeSI)
 
-This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interleave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
+This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interweave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
 
 ### Registration of Interest
 
