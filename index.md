@@ -50,14 +50,13 @@ along with computational topics such as:
 
 This week long event is designed to be an immersive experience so **we ask that you commit to the entire week.** We have chosen to interweave the computational topics throughout the week so that we can build on them throughout the entire week, so this ensures participants have the key knowledge at the right time.
 
-### Registration of Interest
+### Expressions of Interest
 
-<!--
-**Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdoslCWhRq2qEj1CMLANPP1KQxOGaPZQLKSi8THoQQyNNMErA/viewform?usp=sf_link)**
--->
+Expressions of interest applications are now open and will close midnight, Friday 29th September 2023.
+
+**Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd-k0o9J64C04fcc5Guui9KGoZ8zwuGpMlGR-q8fzJWqcfqSQ/viewform?usp=sf_link)**
+
 <!-- Applications closed midnight 31st August (NZ). Applicants will be notified of their outcome the week following the close of applications. -->
-
-Applications will be open shortly
 
 ---
 
