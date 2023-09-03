@@ -12,7 +12,7 @@ This event is organised by:
 
 {% include organisers.md %}
 
-Please email murray.cadzow@otago.ac.nz for futher information/queries.
+Please email [murray.cadzow@otago.ac.nz](murray.cadzow@otago.ac.nz) for futher information/queries.
 
 ### When and where?
 
