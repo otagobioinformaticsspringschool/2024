@@ -54,9 +54,9 @@ This week long event is designed to be an immersive experience so **we ask that 
 
 Expressions of interest applications are now open and will close midnight, Friday 29th September 2023.
 
-**Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd-k0o9J64C04fcc5Guui9KGoZ8zwuGpMlGR-q8fzJWqcfqSQ/viewform?usp=sf_link)**
+<!-- **Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd-k0o9J64C04fcc5Guui9KGoZ8zwuGpMlGR-q8fzJWqcfqSQ/viewform?usp=sf_link)** -->
 
-<!-- Applications closed midnight 31st August (NZ). Applicants will be notified of their outcome the week following the close of applications. -->
+Applications closed midnight 29th September (NZ). Applicants will be notified of their outcome the week following the close of applications.
 
 ---
 
