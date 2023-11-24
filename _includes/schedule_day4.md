@@ -11,3 +11,5 @@
 | 14:45 |      Break      |
 | 15:00 | Genome assembly |
 | 16:30 |   End of Day    |
+
+(Optional) Drinks/nibbles at own cost, 5pm Noisy Brewery - 7 Anzac Avenue, Central Dunedin, Dunedin.
