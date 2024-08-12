@@ -14,11 +14,9 @@
 - Draft assembly
 - Assembly QC
 
-#### Nanopore
+### RNA Seq
 
-- Base calling
-- Quality control
-- Variant calling
+### eDNA
 
 ### Computational Topics
 

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Bioinformatics Spring School 2023 is a week long training event for researchers, supported by Genomics Aotearoa and the New Zealand eScience Infrastructure (NeSI).
+Bioinformatics Spring School 2024 is a week long training event for researchers, supported by Genomics Aotearoa and the New Zealand eScience Infrastructure (NeSI).
 
 We will combine talks from researchers and hands on computational workshops (influenced by [The Carpentries](https://www.carpentries.org)), covering example workflows of DNA variant calling, Genome assembly, environmental DNA (eDNA), and Nanopore.
 
@@ -12,9 +12,9 @@ This event is organised by:
 
 {% include organisers.md %}
 
-
 When and where?
-9:30 - 16:30, 27 November - 1 December 2023
+
+9:30 - 16:30, 18-22 November 2024
 University of Otago, Dunedin, New Zealand
 
 This is an in-person event.

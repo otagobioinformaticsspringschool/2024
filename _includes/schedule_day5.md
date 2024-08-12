@@ -1,16 +1,13 @@
-### Friday 1st Dec
+### Friday 22nd Nov
 
-| Time  |      What      |
-| ----- | ------------ |
-| 09:30 | Introduction to Nanopore Sequencing    |
-| 10:00 | Nanopore flowcell loading demo: Dr Augstine Chen  |
-| 10:15 | Basecalling with Dorado  |
-| **10:45** | **BREAK**      |
-| 11:00 | Basecalling continued |
-| 11:30 | QC with Nanoplot and FastQC |
-| **12:15** | **LUNCH**      |
-| 13:00 | Talk: Dr Michael Dunnet |
-| 13:30 | Alignment and Variant Calling |
-| **14:30** | **BREAK** |
-| 14:45 | Adaptive sampling |
-| **16:00** | **FINISH!**   |
+| Time  |    What    |
+| ----- | :--------: |
+| 9:30  |  Speaker   |
+| 10:30 |            |
+| 11:00 |   Break    |
+| 11:15 |            |
+| 12:15 |   Lunch    |
+| 13:00 |            |
+| 14:45 |   Break    |
+| 15:00 |            |
+| 16:30 | End of Day |
