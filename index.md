@@ -51,13 +51,11 @@ This week long event is designed to be an immersive experience so **we ask that 
 
 ### Expressions of Interest
 
-Expressions of interest Will open mid-August.
+Expressions of interest applications are now open and will close midnight, Friday 29th September 2024.
 
-<!-- Expressions of interest applications are now open and will close midnight, Friday 29th September 2024. -->
+**Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLScmdsfoGlPyGgW4R1_EGomPlm41G4OJRjvKWnK6i3eZMYThHA/viewform?usp=sf_link)**
 
-<!-- **Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd-k0o9J64C04fcc5Guui9KGoZ8zwuGpMlGR-q8fzJWqcfqSQ/viewform?usp=sf_link)** -->
-
-Applications close midnight 27th September anywhere on earth. Applicants will be notified of their outcome the week following the close of applications.
+Applications close midnight Friday 29th September 2024 anywhere on earth. Applicants will be notified of their outcome the week following the close of applications.
 
 ---
 
