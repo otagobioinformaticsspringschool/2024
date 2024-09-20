@@ -55,7 +55,7 @@ Expressions of interest applications are now open and will close midnight, Frida
 
 **Please register your interest in attending by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLScmdsfoGlPyGgW4R1_EGomPlm41G4OJRjvKWnK6i3eZMYThHA/viewform?usp=sf_link)**
 
-Applications close midnight Friday 29th September 2024 anywhere on earth. Applicants will be notified of their outcome the week following the close of applications.
+Applications close midnight Sunday 29th September 2024 anywhere on earth. Applicants will be notified of their outcome the week following the close of applications.
 
 ---
 
