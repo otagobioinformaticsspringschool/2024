@@ -13,4 +13,4 @@ Extension: [Shell for Bioinformatics](https://otagobioinformaticsspringschool.gi
 
 {% include about/r_lo.md %}
 
-[Introduction to R](https://otagobioinformaticsspringschool.github.io/bioc-intro-r)
+[Introduction to R](https://carpentries-incubator.github.io/bioc-intro)
