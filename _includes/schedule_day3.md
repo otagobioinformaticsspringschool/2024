@@ -11,3 +11,6 @@
 | 14:45 |          Break           |
 | 15:00 | Long Read Assembly cont. |
 | 16:30 |        End of Day        |
+
+
+Genome Assembly Lesson: [https://otagobioinformaticsspringschool.github.io/long-read-assembly/](https://otagobioinformaticsspringschool.github.io/long-read-assembly/)

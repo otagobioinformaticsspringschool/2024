@@ -11,3 +11,6 @@
 | 14:40 |   Break    |
 | 15:00 | eDNA cont. |
 | 16:30 | End of Day |
+
+
+eDNA lesson: [https://otagobioinformaticsspringschool.github.io/2024-edna/](https://otagobioinformaticsspringschool.github.io/2024-edna/)

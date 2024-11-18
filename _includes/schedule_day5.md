@@ -11,3 +11,5 @@
 | 14:40 |    Break     |
 | 15:00 | RNAseq cont. |
 | 16:30 |  End of Day  |
+
+RNAseq lesson: [https://otagobioinformaticsspringschool.github.io/bioc-rnaseq/](https://otagobioinformaticsspringschool.github.io/bioc-rnaseq/)
